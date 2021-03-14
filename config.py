@@ -7,5 +7,5 @@ KVK = "67015336"
 BTW = "NL002335239B09"
 YEAR = date.today().year
 
-css_flavour = "mini-default"  # one of 'mini-dark', 'mini-default', 'mini-nord'
-max_width = 800
+css_flavour = "mini-nord"  # one of 'mini-dark', 'mini-default', 'mini-nord'
+max_width = 992
