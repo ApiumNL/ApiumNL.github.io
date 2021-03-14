@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apium</title>
+  <link rel="stylesheet" href="css/{{ css_flavour }}.min.css"/>
+</head>
+<body style="max-width: {{ max_width }}px; margin: 0 auto;">
+
+{# Header #}
+<div class="container">
+  <div class="row">
+    <header class="col-sm">
+      <a href="index.html" class="logo">Apium</a>
+      {# TODO more links #}
+    </header>
+  </div>
+</div>
+
+{# Introduction #}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Apium is e-commerce</h1>
+      <p>
+        Wij hebben jarenlange ervaring met het beheren en ontwikkelen van
+        e-commerce oplossingen op basis van
+        <a href="https://www.prestashop.com/nl">PrestaShop</a>,
+        waardoor wij ons goed in uw eisenpakket kunnen inleven.
+      </p>
+    </div>
+  </div>
+</div>
+
+{# Features #}
+<div class="container">
+  <h2>Waarom Apium?</h2>
+  <div class="row">
+    <div class="col-md-4 col-sm-12">
+      <div class="card fluid">
+        <h4 class="section">Elegant ontwerp</h4>
+        <p class="section">
+          In overleg met u bouwen wij een moderne, responsieve webshop.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card fluid">
+        <h4 class="section">Volwassen e-commerce oplossing</h4>
+        <p class="section">
+          U bent gepassioneerd over uw bedrijf.
+
+          Omdat u een webshop wilt waar u op kunt vertrouwen, werken wij op
+          basis van <a href="https://www.prestashop.com/nl">PrestaShop</a> met
+          een stabiele, volwassen oplossing.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card fluid">
+        <h4 class="section">Wij leveren precisiewerk</h4>
+        <p class="section">
+          Elke klant is anders.
+
+          Daarom lopen wij met u het hele traject door, van pril concept tot
+          realisatie.
+
+          Zo komen wij samen tot een geschikt resultaat voor uw wensen.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{# Contact #}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>
+        Heeft u een project voor ons?
+        <small>Wij horen het graag!</small>
+      </h2>
+      <p>U kunt ons bereiken op:</p>
+      <p>
+        <span class="icon-phone"></span>
+        {{ PHONE }}
+      </p>
+      <p>
+        <span class="icon-mail"></span>
+        <a href="mailto:{{ EMAIL }}">{{ EMAIL }}</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+{# Footer #}
+<div class="container" style="
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        max-width: {{ max_width }}px;">
+  <div class="row">
+    <footer style="width: 100%;">
+      <p>
+        © 2021 Apium | KvK: {{ KVK }} | BTW: {{ BTW }}
+      </p>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
