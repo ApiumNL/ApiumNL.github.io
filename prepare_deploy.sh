@@ -15,5 +15,5 @@ mkdir dist dist/css dist/img
 source make_pages.sh
 cp README.md dist/README.md
 
-# Deploy to main
-pipenv run ghp-import -n -b main -m "[Assets] $1" dist
+# Deploy to main. Write CNAME.
+pipenv run ghp-import -n -b main -c apium.nl -m "[Assets] $1" dist
