@@ -10,7 +10,7 @@ git commit -m "[Source] $1"
 
 # Build assets
 rm -rf dist
-mkdir dist
+mkdir dist dist/css
 
 source make_pages.sh
 cp README.md dist/README.md
